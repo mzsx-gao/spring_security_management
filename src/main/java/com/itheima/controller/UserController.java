@@ -47,6 +47,4 @@ public class UserController {
         userService.addRoleToUser(userId, ids);
         return "redirect:toAddRolePage?success="+true+"&id="+userId;
     }
-
-
 }
